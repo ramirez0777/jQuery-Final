@@ -1,0 +1,132 @@
+*
+{
+	margin: 0;	padding: 0;	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(../img/bg.png);
+}
+
+main
+{
+	height: 100%;
+	background-color: #cfe4fc;
+	padding: 5px;
+}
+
+p.text
+{
+	background-color: #faecd1 !important;
+	padding: 5px;
+	border-radius: 5px;remoteAllr
+}
+
+.push
+{
+	margin-top: 3.5em;
+}
+
+.push-less
+{
+	margin-top: 2.5em;
+}
+
+ul > li
+{
+	margin-left: 8em;
+}
+
+
+.navbar-brand
+{
+	width: 25%;
+	padding: 0;
+}
+
+.logo
+{
+	margin-left: 9em;
+	height: 100%;
+	padding: 0;
+}
+
+.links
+{
+	color: black;
+}
+
+.icon-space
+{
+	margin-right: 1em;
+}
+
+.landscape
+{
+	width: 100%;
+
+	height: 15em;
+}
+
+.img-fix
+{
+	width: 24%;	
+}
+
+.small-img
+{
+	width: 160px;
+	height: 160px;
+}
+
+form > input
+{
+	padding: 5px;
+	border-radius: 9px;
+	margin: 5px;
+	width: 47%;
+}
+
+form
+{
+	margin: 0 auto;
+}
+
+.up
+{
+	z-index: 99;
+}
+
+.navbar-default
+{
+	background-color: #CAE048;
+}
+
+.navbar-default .navbar-nav > li > a, .black
+{
+	color: black;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #FFF;
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: transparent;
+  color: #F3F3F3;
+  padding-bottom: 0.62em;
+  border-bottom: 0.45em solid #EFC374;
+}
+
+.modal-header
+{
+	background-color: #EFC374;
+}

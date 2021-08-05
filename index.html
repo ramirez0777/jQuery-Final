@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JavaScript Quiz</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/daterangepicker.css">
+
+		<!-- <link type="text/css" rel="stylesheet" href="css/standalone.css"> -->
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link href="img/icon.jpg" rel="icon" type="image/x-icon">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/moment.min.js"></script>
+		<script src="js/daterangepicker.js"></script>
+		<script src="js/bootstrap-confirmation.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">
+						<img src="img/logo.png" class="logo">
+					</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			
+				<div id="nav-menu" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#" class="links" data-toggle="modal" data-target="#about-modal"><span class="glyphicon glyphicon-user icon-space"></span><span class="black">About Us</span></a></li>
+						<li><a href="#" class="links" data-toggle="modal" data-target="#contact-modal"><span class="	glyphicon glyphicon-comment icon-space"></span><span class="black">Contact Us</span></a></li>					
+						<li><a href="#" class="links" data-toggle="modal" data-target="#places-modal"><span class="glyphicon glyphicon-plane icon-space"></span><span class="black">Our Partners</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main class="container push card">
+			<div class="row">
+				<div class="col-xs-0 col-sm-2"></div>
+				<div class="col-xs-12 col-sm-8"><img src="img/landscape.jpg" class="landscape"></div>
+			</div>
+			<div class="row push-less">
+				<div class="col-md-2 col-lg-2"></div>
+				<div class="col-xs-12 col-md-6 col-lg-6 ">
+					<p class="text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor nibh a eros vestibulum mollis. Cras eu fermentum erat. Integer dictum egestas mauris sed fermentum. Sed elit leo, sagittis hendrerit nibh nec, gravida vestibulum ligula. Nunc posuere massa augue, sed pretium nisl iaculis sollicitudin. Morbi cursus purus id dignissim tempor. Duis scelerisque commodo hendrerit. Duis vestibulum feugiat lacus laoreet mattis. Cras tortor neque, suscipit quis feugiat non, viverra quis dui. Donec mollis vitae tortor eget molestie. Nunc a pulvinar erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris metus lorem, facilisis non ullamcorper quis, interdum vitae risus. Quisque vulputate iaculis pulvinar.
+					</p>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+					<img src="img/vacay.jpg" class="small-img">
+				</div>	
+			</div>
+			
+		</main>
+		<!-- About Us Modal -->
+		<div class="modal fade" id="about-modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">About Us</h4>
+					</div>
+					<div class="modal-body">					
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas metus in leo aliquet, pulvinar facilisis elit scelerisque. Quisque pellentesque consectetur massa, in placerat enim dictum et. Phasellus vitae tempus est, nec imperdiet justo. Sed laoreet arcu sit amet turpis egestas laoreet. Vivamus quis enim at lectus interdum vestibulum luctus vel velit. Integer purus ante, vulputate et feugiat sit amet, tincidunt ac risus. Proin efficitur arcu at urna laoreet imperdiet sed in purus. Donec mollis nisi ut elit cursus interdum. Vestibulum quis sem magna. Donec ut rutrum ipsum, sit amet vehicula ante.
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Us Modal -->
+		<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Contact Us</h4>
+					</div>
+					<div class="modal-body">
+						<form action="javascript:void(0)" class="input-group">
+							<input type="text" placeholder="Name">
+							<input type="text" placeholder="Phone Number">
+							<input type="text" id="demo" placeholder="Select The Best Day To Contact You.">
+							<input type="submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Places To Travel Modal -->
+		<div class="modal fade" id="places-modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Our Partners</h4>
+					</div>
+					<div class="modal-body">
+						
+						<div>
+							<a href="expedia.com"><img src="img/1.webp" class="img-fix"></a>
+							<a href="delta.com"><img src="img/2.webp" class="img-fix"></a>
+							<a href="orbitz.com"><img src="img/3.webp" class="img-fix"></a>
+							<a href="southwest.com"><img src="img/4.webp" class="img-fix"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<body>
+	</body>
+</html>
